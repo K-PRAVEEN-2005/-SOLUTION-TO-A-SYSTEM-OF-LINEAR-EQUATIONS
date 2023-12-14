@@ -14,8 +14,21 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
+```
+#Program to find the solution for the given linear equations.
+#Developed by: praveen k
+#RegisterNumber:23014148
+import numpy as np
+A =[[5,-3,-10],[2,2,-3],[-3,-1,5]]
+b =np.array([-9,4,-1])
+c =np.linalg.solve(A,b)
+print(c)
+```
 
 ## Output:
+
+ ![Alt text](<maths exp 1.png>)
+ 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
